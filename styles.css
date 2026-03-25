@@ -7,17 +7,20 @@ header {
     display: flex;
     /* justify-content: space-between; */
     flex-direction: column;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "UnifrakturMaguntia", cursive;
     font-weight: 400;
     font-style: normal;
-    color: rgb(228, 236, 247);
+    color: rgb(34, 44, 64);
     padding: 8px;
 }
 
 .header-container {
     height: 500px;
     background-color: #6b594f;
+    background-image: url("may-12-2019-star-forming-region-n11b.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .title-header {
@@ -38,12 +41,19 @@ footer {
 }
 
 .item {
-    width: 1000px;
+    display: flex;
+    width: 400px;
     height: 500px;
     background: #6b594f;
     font-size: 36px;
-    color: rgb(149, 177, 213)
+    color: rgb(149, 177, 213);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    justify-content: center;
 }
+
+
 
 h1 {
 
@@ -84,10 +94,8 @@ a {
     color: rgb(255, 255, 255)
 }
 
-.Projects-link:hover a {
-    background-color: rgb(116, 134, 166);
-    color: rgb(255, 255, 255)
-}
+
+
 
 .link-container {
     display: flex;
