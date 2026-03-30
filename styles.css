@@ -48,6 +48,11 @@ header {
     height: 80%;
 }
 
+.div-gradient {
+    height: 100px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(14, 13, 14) 100%);
+}
+
 footer {
     margin-top: 40px;
 }
@@ -62,30 +67,29 @@ footer {
     display: flex;
     width: 400px;
     height: 400px;
-    background: #6b594f;
     font-size: 36px;
     color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
-    background-image: url("Mercury.png");
+    background-image: url("Untitled\ design\ \(1\)\ copy.png");
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: center;
+
 }
 
 .item-2 {
     display: flex;
     width: 400px;
     height: 400px;
-    background: #6b594f;
     font-size: 36px;
     color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
-    background-image: url("Venus.jpg");
+    background-image: url("Planets\ copy.png");
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -96,13 +100,12 @@ footer {
     display: flex;
     width: 400px;
     height: 400px;
-    background: #6b594f;
     font-size: 36px;
     color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
-    background-image: url("Earth.jpg");
+    background-image: url("Planets.png");
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -130,13 +133,12 @@ footer {
     display: flex;
     width: 400px;
     height: 400px;
-    background: #6b594f;
     font-size: 36px;
     color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
-    background-image: url("Jupiter 2.jpg");
+    background-image: url("Untitled\ design\ \(1\).png");
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -148,13 +150,12 @@ footer {
     display: flex;
     width: 400px;
     height: 400px;
-    background: #6b594f;
     font-size: 36px;
     color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
-    background-image: url("Saturn.jpg");
+    background-image: url("Planets\ copy\ 2.png");
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -168,6 +169,14 @@ h1 {
     font-style: normal;
     font-size: 42px;
     color: rgb(149, 177, 213)
+}
+
+p {
+    font-family: "Astloch", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
 }
 
 .social-logo {
@@ -197,7 +206,6 @@ a {
 
 .Home-link:hover a {
     background-color: rgb(116, 134, 166);
-    color: rgb(255, 255, 255)
 }
 
 
@@ -209,4 +217,19 @@ a {
     gap: 5px;
     justify-self: flex-end;
 
+}
+
+
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+a:active {
+    color: rgb(255, 255, 255);
 }
