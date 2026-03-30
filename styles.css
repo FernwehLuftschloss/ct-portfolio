@@ -26,6 +26,21 @@ header {
     background-position: center;
 }
 
+.pfp {
+    display: flex;
+    height: 165px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("6f4a8c45-10ad-4cfa-ac1b-8eb9cede1663.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 650px;
+    margin-top: 60px
+}
+
 .title-header {
     display: flex;
     justify-content: center;
@@ -43,7 +58,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.item {
+.item-1 {
     display: flex;
     width: 400px;
     height: 400px;
@@ -53,14 +68,98 @@ footer {
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50%;
+    background-image: url("Mercury.png");
     justify-content: center;
     align-items: center;
-    background-image: url("Mercury.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.item-2 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: #6b594f;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url("Venus.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-3 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: #6b594f;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url("Earth.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-4 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: #6b594f;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url("Mars.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-5 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: #6b594f;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url("Jupiter 2.jpg");
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-position: center;
 }
 
 
+.item-6 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: #6b594f;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url("Saturn.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
 
 h1 {
 
